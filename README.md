@@ -64,7 +64,7 @@ SELECT mode, SUM(amount) AS Total FROM payment GROUP BY mode ORDER BY Total DESC
 SELECT first_name, mode, amount FROM customer AS c
 INNER JOIN payment AS p ON c.customer_id = p.customer_id;
 ```
-# 🚀 How to Run
+## 🚀 How to Run
 You can run this project in any SQL-compatible environment such as:
 
 PostgreSQL
