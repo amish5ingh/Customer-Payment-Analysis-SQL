@@ -1,5 +1,6 @@
-create table customer(customer_id int, first_name varchar(20),last_name varchar(20),address varchar(20))
+--Customer-Payment-Analysis-SQL
 
+create table customer(customer_id int, first_name varchar(20),last_name varchar(20),address varchar(20))
 select * from  customer
 
 --Tables ke ander ke sabi data delete ka command h truncate
@@ -281,6 +282,7 @@ from payment
 where customer_id in (select customer_id from customer)
 
  
+
 
 
 
