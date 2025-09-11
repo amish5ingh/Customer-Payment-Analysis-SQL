@@ -1,4 +1,4 @@
---Customer-Payment-Analysis-SQL
+                        --Customer-Payment-Analysis-SQL
 
 create table customer(customer_id int, first_name varchar(20),last_name varchar(20),address varchar(20))
 select * from  customer
@@ -295,3 +295,4 @@ where customer_id in (select customer_id from customer)
 
 
  
+
